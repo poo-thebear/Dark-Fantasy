@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunny Day</title>
+    <link rel="shortcut icon" height="30px" type="image" href="asset/ice.png">
+    <title>Dark Fantasy</title>
+
     <style>
         @font-face {
             font-family: 'ALIEN';
             src: url(asset/alienleaguebold.ttf);
         }
+
         * {
             box-sizing: border-box;
         }
@@ -28,7 +31,7 @@
             align-items: center;
             justify-content: center;
             height: 100%;
-            
+
         }
 
         .heading {
@@ -37,25 +40,27 @@
             font-weight: 300;
             text-transform: uppercase;
         }
-        #btn{
+
+        #btn {
             position: absolute;
-            bottom:5%;
-            right:5%;
-            border:none;
+            bottom: 5%;
+            right: 5%;
+            border: none;
             background-color: transparent;
             font-family: 'Calibri';
-            color:white;
+            color: white;
             font-size: 20px;
         }
     </style>
 </head>
 
 <body>
+
     <div class="container">
         <h1 class="heading" data-target-resolver></h1>
     </div>
-    <form action="game.html"><button type="submit" id="btn">SKIP</button></form>
-    
+    <form action="game.html"><button type="submit" id="btn">SKIP >></button></form>
+
     <script>
         const resolver = {
             resolve: function resolve(options, callback) {
@@ -124,7 +129,7 @@
          * Source: http://theportalwiki.com/wiki/GLaDOS_voice_lines#Chapter_9:_The_Part_Where_He_Kills_You
          */
         const strings = [
-            'Hi bro', 'i know this isn\'t an .exe file','u\'re gonna have to manage with this', 'Like everytime this time also I don\'t have anything to say','Do u remember when I answered ur question, "till singularity"','I get this feeling that u did\'t even googled it', 'Let me tell u', 'We can\'t measure its volume', 'if u try to reach singularity...', 'u will collapse to the point of singularity','it\'s a point where u become infinitely small with infinite mass','where space time and laws of physics break down', 'it will become practically impossible for u', 'to reach that end with such a small mass', 'Basically, its like travelling to infinity', 'understood?', 'if not, then, its fine', 'cuz singularity hasn\'t been found yet', 'now let me answer ur question clearly','Yeah I like u', 'till singularity <3', 'while looking from real world','it\'d be something negligible','but now when i\'m in it', 'it feels endless','','','','',''
+            'Hi bro', 'i know this isn\'t an .exe file', 'u\'re gonna have to manage with this', 'Like everytime this time also I don\'t have anything to say', 'Do u remember when I answered ur question, "till singularity"', 'I get this feeling that u did\'t even googled it', 'Let me tell u', 'We can\'t measure its volume', 'if u try to reach singularity...', 'u will collapse to the point of singularity', 'it\'s a point where u become infinitely small with infinite mass', 'where space time and laws of physics break down', 'it will become practically impossible for u', 'to reach that end with such a small mass', 'Basically, its like travelling to infinity', 'understood?', 'if not, then, its fine', 'cuz singularity hasn\'t been found yet', 'now let me answer ur question clearly', 'Yeah I like u', 'till singularity <3', 'while looking from real world', 'it\'d be something negligible', 'but now when i\'m in it', 'it feels endless', 'Now press the skip button (bottom right corner)', '', '', '', ''
         ];
 
         let counter = 0;
