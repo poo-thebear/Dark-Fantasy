@@ -51,13 +51,19 @@
             color: white;
             font-size: 20px;
         }
+        @media screen and (max-width: 450px) {
+            .heading {
+            font-size: 18px;
+        }
+        
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-        <h1 class="heading" data-target-resolver></h1>
+        <h1 class="heading" align="center" data-target-resolver></h1>
     </div>
     <form action="game.html"><button type="submit" id="btn">SKIP >></button></form>
 
@@ -129,7 +135,7 @@
          * Source: http://theportalwiki.com/wiki/GLaDOS_voice_lines#Chapter_9:_The_Part_Where_He_Kills_You
          */
         const strings = [
-            'Hi Pratik', 'i know this isn\'t an .exe file', 'u\'re gonna have to manage with this', 'Like everytime this time also I don\'t have anything to say', 'Do u remember when I answered ur question, "till singularity"', 'I get this feeling that u did\'t even googled it', 'Let me tell u', 'We can\'t measure its volume', 'if u try to reach singularity...', 'u will collapse to the point of singularity', 'it\'s a point where u become infinitely small with infinite mass', 'where space time and laws of physics break down', 'it will become practically impossible for u', 'to reach that end with such a small mass', 'Basically, its like travelling to infinity', 'understood?', 'if not, then, its fine', 'cuz singularity hasn\'t been found yet', 'now let me answer ur question clearly', 'Yeah I like u', 'till singularity <3', 'while looking from real world', 'it\'d be something negligible', 'but now when i\'m in it', 'it feels endless', 'Now press the skip button (bottom right corner)', '', '', '', ''
+            'Hi Pratik...', 'i know this isn\'t an .exe file', 'u\'re gonna have to manage with this', 'Like everytime this time also I don\'t have anything to say', 'Do u remember when I answered ur question, "till singularity"?', 'I get this feeling that u did\'t even googled it', 'Let me tell u', 'We can\'t measure its volume', 'if u try to reach singularity...', 'u will collapse to the point of singularity', 'it\'s a point where u become infinitely small with infinite mass', 'where space time and laws of physics break down', 'it will become practically impossible for u', 'to reach that end with such a small mass', 'Basically, its like travelling to infinity', 'understood?', 'if not, then, its fine', 'cuz singularity hasn\'t been found yet', 'now let me answer ur question clearly', 'Yeah I like u', 'till singularity <3', 'while looking from real world', 'it\'d be something negligible', 'but now when i\'m in it', 'it feels endless', 'Now press the skip button (bottom right corner)', '', '', '', ''
         ];
 
         let counter = 0;
